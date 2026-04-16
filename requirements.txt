@@ -1,1 +1,7 @@
-
+torch
+torchvision
+matplotlib
+wandb
+numpy 
+pandas
+seaborn
