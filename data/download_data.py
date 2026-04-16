@@ -1,6 +1,7 @@
 import os
 import requests
 import zipfile
+import shutil
 
 def download_tiny_imagenet(url, dest_folder="data"):
     # 1. Creazione cartella destinazione

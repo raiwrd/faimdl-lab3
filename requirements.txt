@@ -5,6 +5,3 @@ wandb
 numpy 
 pandas
 seaborn
-os
-requests
-zipfile
