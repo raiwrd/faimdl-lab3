@@ -109,8 +109,8 @@ if __name__ == '__main__':
     ])
 
     # Assicurati che i path siano corretti per Colab
-    tiny_imagenet_dataset_train = ImageFolder(root='tiny-imagenet/tiny-imagenet-200/train', transform=transform)
-    tiny_imagenet_dataset_val = ImageFolder(root='tiny-imagenet/tiny-imagenet-200/val', transform=transform)
+    tiny_imagenet_dataset_train = ImageFolder(root='data/tiny-imagenet-200/train', transform=transform)
+    tiny_imagenet_dataset_val = ImageFolder(root='data/tiny-imagenet-200/val', transform=transform)
 
     train_loader = torch.utils.data.DataLoader(tiny_imagenet_dataset_train, batch_size=64, shuffle=True, num_workers=2)
     val_loader = torch.utils.data.DataLoader(tiny_imagenet_dataset_val, batch_size=64, shuffle=False, num_workers=2)
